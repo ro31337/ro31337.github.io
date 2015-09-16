@@ -3,8 +3,6 @@ layout: post
 title: SSH for Web Developers
 ---
 
-# SSH for Web Developers
-
 ## Connecting  to remove server over SSH
 
 SSH is network protocol designed for remote operating system control and tunneling. Data sent over SSH is encrypted.
