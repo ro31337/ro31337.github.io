@@ -14,7 +14,7 @@ On the other hand I am good in sports, hold PhD equivalent degrees in several vi
 
 I hold a Master’s degree in Computational Science. If you would like to know me better, feel free to add me to your friends on [Twitter](http://twitter.com/romanpushkin).
 
-### Some of my latest personal projects
+### Some of my latest personal projects and Open Source contributions
 
 * [HackTunnel](https://hacktunnel.com) ([GitHub](https://github.com/devhq-io/hacktunnel)) - web-based peer-to-peer chat software for anonymous and encrypted communication written with Go language.
 
