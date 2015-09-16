@@ -3,8 +3,6 @@ layout: post
 title: SSH for Web Developers
 ---
 
-## Connecting  to remove server over SSH
-
 SSH is network protocol designed for remote operating system control and tunneling. Data sent over SSH is encrypted.
 
 Usually the client software for connection with remote server over SSH in Linux-like operating systems is pre-installed and called ssh. For Windows one can use, for instance, PuTTY.
