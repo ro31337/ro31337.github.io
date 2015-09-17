@@ -13,7 +13,7 @@ Port 22 and current logged on username will be used by default. Let's say you're
 
 ### SSH Keys
 
-Regardless of the fact that usually for remote sever connection one can use login/password pair, more often SSH-keys based authorization is used.
+Even though that usually for remote sever connection one can use login/password pair, more often SSH-keys based authorization is used.
 
 SSH-key is two files: `id_rsa.pub` (public part of the key) and `id_rsa` (private part of the key). To create your own SSH-key on Linux or Mac just type in your terminal `ssh-keygen`. By default on Linux or Mac the key is stored in `~/.ssh` directory. If someone's asking for a key to set up SSH access for you, you just need to send over the public key only (`id_rsa.pub`). Keep your private key private.
 
