@@ -20,6 +20,23 @@ I hold a Master’s degree in Computational Science. If you would like to know m
 
 * [100-hour Ruby/Rails video course](http://rubyschool.us) in Russian. Now free. 
 
+### Development History
+
+* First line of code on Corvette (soviet computer) - 1991 (I was 9 years old!)
+* First line of code on Assembler on IBM 386 - 1993
+* First line of code with C/C++ - 1995
+* First line of code with Perl, MySQL, HTML - 1998
+* First Linux driver for RedHat - 1998
+* First line of JavaScript - 2000
+* First line of Code with .NET - 2003
+* Microsoft Certified Application Developer for .NET - 2005
+* First web app with .NET / ASP.NET - 2006
+* First line of code with Ruby/Rails - 2007
+* First personal web project sold - 2012
+* First node.js app - 2012
+* First meteor.js app - 2014
+* First Golang app - 2015
+
 ### Contact me
 
 [roman.pushkin@gmail.com](mailto:roman.pushkin@gmail.com)
