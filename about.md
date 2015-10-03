@@ -39,8 +39,6 @@ I hold a Master’s degree in Computational Science. If you would like to know m
 
 ### Sources of inspiration for you and me
 
-(everything is paid)
-
 * [Clean Code video series](http://cleancoders.com/category/clean-code)
 * [Destroy All Software video series](destroyallsoftware.com/screencasts/catalog)
 * [Ruby Tapas](http://rubytapas.com/)
