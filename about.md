@@ -37,6 +37,14 @@ I hold a Master’s degree in Computational Science. If you would like to know m
 * First meteor.js app - 2014
 * First Golang app - 2015
 
+### Sources of inspiration for you and me
+
+(everything is paid)
+
+* [Clean Code video series](http://cleancoders.com/category/clean-code)
+* [Destroy All Software video series](destroyallsoftware.com/screencasts/catalog)
+* [Ruby Tapas](http://rubytapas.com/)
+
 ### Contact me
 
 [roman.pushkin@gmail.com](mailto:roman.pushkin@gmail.com)
