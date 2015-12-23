@@ -3,7 +3,7 @@ layout: post
 title: Managing Ruby on Rails app assets with Bower
 ---
 
-While working Ruby on Rails app, developers tend to add more and more client libraries: Angular, Bootstrap, jQuery plugins. And RoR framework by default offers no any efficient way of managing these dependencies. You either add gems to Gemfile or place your assets under `vender/assets`. In first case gem could be updated infrequently, and application starts running slower over the time because of large amount of gems. In another case, updating an asset becomes a pain -- you have to handle all these dependencies manually.
+While working Ruby on Rails app, developers tend to add more and more client libraries: Angular, Bootstrap, jQuery plugins. And RoR framework by default offers no any efficient way of managing these dependencies. You either add gems to Gemfile or place your assets under `vendor/assets`. In first case gem could be updated infrequently, and application starts running slower over the time because of large amount of gems. In another case, updating an asset becomes a pain -- you have to handle all these dependencies manually.
 
 ## Using Bower for asset management
 
