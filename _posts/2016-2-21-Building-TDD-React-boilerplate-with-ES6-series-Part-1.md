@@ -1,7 +1,9 @@
 ---
 layout: post
-title: Building TDD React boilerplate with ES6 series. Introduction to Modern Frontend Workflow, adding our first React Component.
+title: Building TDD React boilerplate with ES6 series (1).
 ---
+
+# Part 1. Introduction to Modern Frontend Workflow, adding our first React Component.
 
 Why TDD React boilerplate and why just don't start with plenty of manuals already available online? Two reasons. First,  React has been updated from 0.13 to 0.14. Most of examples I found were outdated already. When it comes to TDD... this decision it's up to you. I've seen many mature developers who don't use TDD approach with React just because it seems that [front-end related stuff is not easy today](https://medium.com/@pistacchio/i-m-a-web-developer-and-i-ve-been-stuck-with-the-simplest-app-for-the-last-10-days-fb5c50917df#.nii0npcwp).
 
