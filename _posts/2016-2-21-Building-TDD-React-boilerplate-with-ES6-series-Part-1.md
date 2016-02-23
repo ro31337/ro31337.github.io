@@ -5,6 +5,8 @@ title: Building TDD React boilerplate with ES6
 
 ## Part 1. Introduction to Modern Frontend Workflow, adding our first React Component.
 
+In this part we'll create our first React component, set our Front-end development environment with Node.js, create gulp build tasks, and will make sure things are running with latest JavaScript - ECMAScript 2015 (aka ES6). You can [browse Github repository](https://github.com/ro31337/react-boilerplate/tree/fcffd07bf381114bb1c3c90d37267621e3e91ae2) at the point of history for Part 1.
+
 Why TDD React boilerplate and why just don't start with plenty of manuals already available online? Two reasons. First,  React has been updated from 0.13 to 0.14. Most of examples I found were outdated already. When it comes to TDD... this decision it's up to you. I've seen many mature developers who don't use TDD approach with React just because it seems that [front-end related stuff is not easy today](https://medium.com/@pistacchio/i-m-a-web-developer-and-i-ve-been-stuck-with-the-simplest-app-for-the-last-10-days-fb5c50917df#.nii0npcwp).
 
 There are few ways to test React apps. What I really want to cover here is React unit testing. It's relatively easy to cover your React app with black box tests, but unit testing is something different. You need environment for that, you should be already familiar with a couple of tools and technologies to pick the best. And it took me about 2 days to build my own boilerplate that just works.
@@ -887,25 +889,23 @@ total 1312
 
 Congratulations! Our `browserify` gulp task is already the part of  `build` task. And it means that we can just `npm start`, modify our `greeter.jsx` in our favorite code editor and see immediate changes in the browser! Under the hood gulp will clean `dist` folder, will babelify ES6 to ES5, will browserify our modules, and will copy html files. Nice work!
 
-TODO: repo at fcffd07b
-
 <img width="501" alt="2d9e6a2a-d93a-4841-a714-844890e2c313" src="https://cloud.githubusercontent.com/assets/1477672/13264628/e0a93c72-da23-11e5-82b0-c285281287c5.png">
 
 At the screenshot above I showed you the moment when I saved new file. You can see that `build` task has been started automatically.
 
-TODO: browse repository for this part (tag).
+[Browse repository at this point of history for Part 1](https://github.com/ro31337/react-boilerplate/tree/fcffd07bf381114bb1c3c90d37267621e3e91ae2).
 
-Part 1. Introduction to Modern Frontend Workflow, adding our first React Component. TODO link
+### All parts
 
-Part 2. Setting up tests. Using React Test Utilities. (coming soon)
+* [Part 1. Introduction to Modern Frontend Workflow, adding our first React Component] (http://ro31337.github.io/Building-TDD-React-boilerplate-with-ES6-series-Part-1/)
+* Part 2. Setting up tests. Using React Test Utilities. (coming soon)
+* Part 3. Adding more functionality to React component and adding tests.  (coming soon)
+* Part 4. Switching to Enzyme.  (coming soon)
+* Part 5. Bower and integration with Rails.  (coming soon)
 
-Part 3. Adding more functionality to React component and adding tests.  (coming soon)
+### About the author:
 
-Part 4. Switching to Enzyme.  (coming soon)
-
-Part 5. Bower and integration with Rails.  (coming soon)
-
-About the author: [Roman Pushkin](http://twitter.com/romanpushkin) is Web Expert from San Francisco. Roman has over 10 years of web development experience with variety of technologies and frameworks.
+[Roman Pushkin](http://twitter.com/romanpushkin) is Web Expert from San Francisco. Roman has over 10 years of web development experience with variety of technologies and frameworks.
 
 TODO: donate button
 TODO: comments in blog
