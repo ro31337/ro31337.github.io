@@ -907,5 +907,3 @@ At the screenshot above I showed you the moment when I saved new file. You can s
 ### About the author:
 
 [Roman Pushkin](http://twitter.com/romanpushkin) is Web Expert from San Francisco. Roman has over 10 years of web development experience with variety of technologies and frameworks.
-
-TODO: donate button
