@@ -226,7 +226,7 @@ $ npm start
 [06:23:07] Webserver started at http://localhost:8000
 ```
 
-TODO: browse my git repository at this point (16d0a3ff).
+[Browse repository at this point of history](https://github.com/ro31337/react-boilerplate/tree/16d0a3fff4e7adb9b1863b4618a5802e2a78ec72)
 
 ### Adding very basic React component
 
@@ -516,7 +516,7 @@ Just great, these two lines are really important here:
 
 We are starting our development server after the build process. We shouldn't have any issues now. With the server running let's modify our `./src/index.html` to `Hello, world! 2`. It was not live reloaded in the browser. We still need to watch for changes in `./src` folder.
 
-TODO: link to commit 33c95d5b
+[Browse repository at this point of history](https://github.com/ro31337/react-boilerplate/tree/33c95d5b945e60038c25cf0c727d7c7d37e6b01c)
 
 ### Watch for changes
 
@@ -601,7 +601,7 @@ This JavaScript code loads `livereload.js`. Code from this file connects to your
 
 Try to modify your `./src/index.html` to see immediate changes in your browser. So we reached very important point (and have not covered any React stuff yet): now we can change our source, save the file, have it built in a second, and see immediate results in your browser. I think it's important and it really improves development experience. I wanted to cover this part only because very soon we'll rely on things like babelify, browserify, bundle and so on. You'll find yourself very tired of these basic operations without the proper automation. And now we have it. Let's add our first react component!
 
-TODO: repository at 9a2d152b
+[Browse repository at this point of history](https://github.com/ro31337/react-boilerplate/tree/9a2d152b7cd4371bdaa62f573b465e58505911bb)
 
 ### Adding React component
 
@@ -781,7 +781,7 @@ Our React component works now:
 
 <img width="251" alt="7308902f-97e0-460f-8a02-a268ffdd9657" src="https://cloud.githubusercontent.com/assets/1477672/13264509/615c8e10-da23-11e5-82c7-546236abc575.png">
 
-Here is the link to repository: TODO 1bbebf32, but keep in mind that if you clone it, it won't work, because you won't have `bundle.js` in your `./dist` folder.
+[Here is the link to repository](https://github.com/ro31337/react-boilerplate/tree/1bbebf329f6266b02777fa906dd198d5c9fc08a0), but keep in mind that if you clone it, it won't work, because you won't have `bundle.js` in your `./dist` folder.
 
 Our new dependencies in `package.json`:
 
@@ -909,4 +909,3 @@ At the screenshot above I showed you the moment when I saved new file. You can s
 [Roman Pushkin](http://twitter.com/romanpushkin) is Web Expert from San Francisco. Roman has over 10 years of web development experience with variety of technologies and frameworks.
 
 TODO: donate button
-TODO: comments in blog
