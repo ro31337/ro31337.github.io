@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Building TDD React boilerplate with ES6
+comments: true
 ---
 
 ## Part 1. Introduction to Modern Frontend Workflow, adding our first React Component.
