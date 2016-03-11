@@ -3,7 +3,7 @@ layout: post
 title: First look to Project Rider with C# / .NET on MAC OS X
 ---
 
-Project rider is in beta, and available for preview. I tried to install it to see if things are going easy enough, and if it's usable on Mac OSX El Capitan.
+[Project Rider](https://www.jetbrains.com/rider/) is in beta, and available for preview. I tried to install it to see if things are going easy enough, and if it's usable on Mac OSX El Capitan.
 
 <img width="1051" alt="screenshot at mar 10 16-51-24" src="https://cloud.githubusercontent.com/assets/1477672/13690665/37531f5a-e6e7-11e5-8ce7-f0ea1e637996.png">
 
