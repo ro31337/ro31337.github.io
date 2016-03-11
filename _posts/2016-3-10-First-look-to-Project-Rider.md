@@ -70,9 +70,8 @@ Nope, doesn't work:
 
 Maybe reboot? Nope, the same thing. Conclusion: I was not able to run IDE and environment in reasonable amount of time. It's too fresh and too extreme for me. I leave it for you, young hackers. Leave your comment if you solved this!
 
+As for commercial software, I really appreciate the effort. I respect what JetBrains and Microsoft doing, and I'm giving away this motto to them for free:
 
+> Fix tools while others code
 
-
-
-
- 
+When you see their fancy presentations, when they say that software is ready to use, and it's so cool, you just need to pay us for it, and when you have to spend ridiculous amount of time just to make it work... I think it's a lie. Yes, read it: they lie us.
