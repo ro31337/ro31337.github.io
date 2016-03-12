@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MVC is actually MVA
+title: MVC is actually MVA or You're not controller anymore
 ---
 
 I'm reading a book of Yegor Bugayenko "[Elegant Objects](http://www.yegor256.com/elegant-objects.html)". Yegor has strong opinion that names ending with `-er` are really bad for your objects. The first one that came to my mind was... Controller.
