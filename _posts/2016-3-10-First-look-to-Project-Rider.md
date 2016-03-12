@@ -70,25 +70,23 @@ Nope, doesn't work:
 
 Maybe reboot? Nope, the same thing. Conclusion: I was not able to run IDE and environment in reasonable amount of time. It's too fresh and too extreme for me. I leave it for you, young hackers. Leave your comment if you solved this!
 
-As for commercial software, I really appreciate the effort. I respect what JetBrains and Microsoft doing, and I'm giving away this motto to them for free:
+I really appreciate the effort. I respect what JetBrains and Microsoft doing. But for now it looks like "Fix tools while others code".
 
-> Fix tools while others code
-
-When you see their fancy presentations, when they say that software is ready to use, and it's so cool, you just need to pay us for it, and when you have to spend ridiculous amount of time just to make it work... I think it's a lie. Yes, read it: they lie us.
+Very often when you see fancy presentations, somebody can say that software is ready to use, and it's so cool, you just need to pay  for it. And when you have to spend significant amount of time just to make it work... I think we should be informed at least.
 
 **UPD**
 
-I twitted the link of this post to @JetBrainsRider yesterday, and got no any support or comments. Thanks, JetBrains. So I tried to google it more, and wanted to spend another hour of setting this wonderful IDE and environment while others just code.
+I twitted the link of this post to @JetBrainsRider yesterday, and got reply from them (see first comment). Thanks, JetBrains. I tried to google it more, and wanted to spend another hour of setting this, hopefully, wonderful IDE.
 
-I found one [similar issue](https://youtrack.jetbrains.com/issue/RIDER-393). Officials said to edit `~/.dnx/runtimes/dnx-mono.1.0.0-rc1-update1/bin/dnx` the weird way:
+I found one [similar issue](https://youtrack.jetbrains.com/issue/RIDER-393). It was said to edit `~/.dnx/runtimes/dnx-mono.1.0.0-rc1-update1/bin/dnx` the weird way:
 
 <img width="843" alt="screenshot at mar 11 16-28-27" src="https://cloud.githubusercontent.com/assets/1477672/13719372/858cb5ec-e7a9-11e5-9edb-c65f2d95ab17.png">
 
-What a weird advice. I tried to find a difference between these two files and here it is:
+I tried to find a difference between these two files and here it is:
 
 <img width="869" alt="screenshot at mar 11 16-30-02" src="https://cloud.githubusercontent.com/assets/1477672/13719375/858ff914-e7a9-11e5-88e8-60a94e438b1e.png">
 
-Really? I will fix this fault of JetBrains support. Here is what you should do. Update line 14 in `~/.dnx/runtimes/dnx-mono.1.0.0-rc1-update1/bin/dnx` from `exec mono...` to `exec /usr/local/bin/mono...`.
+So ignore the advice, and just update line 14 in `~/.dnx/runtimes/dnx-mono.1.0.0-rc1-update1/bin/dnx` from `exec mono...` to `exec /usr/local/bin/mono...`.
 
 Let's try it now:
 
@@ -112,8 +110,8 @@ Nope. Let's try to create another project. No luck:
 
 <img width="984" alt="screenshot at mar 11 16-41-49" src="https://cloud.githubusercontent.com/assets/1477672/13719377/85995d6a-e7a9-11e5-8b80-301908d34f39.png">
 
-Second day, it just doesn't work. There are more folks who desperately trying to make it work:
+Second day, it doesn't work. There are more folks who desperately trying to make it work:
 
 <img width="566" alt="screenshot at mar 11 16-42-58" src="https://cloud.githubusercontent.com/assets/1477672/13719376/85975b3c-e7a9-11e5-8618-fc919aba6dc6.png">
 
-Conslusion: I'm scared. Not because of bugs, they're okay. I'm scared because the technology is so new and fresh, and at the same time marketed so aggressively. They should definitely wait before doing loud promises. If you do that, you'll be always releasing unusable software. Because you want to release new, you don't want to wait. Just admit that: yes, it's not ready. Please wait for another year until we can finish and deliver stable and usable product. But it just doesn't work these days. Today's reality: sell first, let customers just buy crappy things, give them support. With this approach you'll always fix tools while others code. It has nothing common with developer's happiness.
+Conclusion: it is still doesn't work, but I hope it will. I can't name it developer's happiness now, but I hope things will be fixed soon. I really want to give it a try. Will keep you updated on my progress in this post.
