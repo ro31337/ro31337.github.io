@@ -115,3 +115,61 @@ Second day, it doesn't work. There are more folks who desperately trying to make
 <img width="566" alt="screenshot at mar 11 16-42-58" src="https://cloud.githubusercontent.com/assets/1477672/13719376/85975b3c-e7a9-11e5-8618-fc919aba6dc6.png">
 
 Conclusion: it is still doesn't work, but I hope it will. I can't name it developer's happiness now, but I hope things will be fixed soon. I really want to give it a try. Will keep you updated on my progress in this post.
+
+### UPD2: How it works on Windows
+
+Meanwhile, I tried to install Rider on Windows. I picked black scheme, so now you know - if screenshot is black, it's from Windows.
+
+Unfortunately, we cannot create blank solution and add two projects as I described [here](http://stackoverflow.com/questions/32591764/create-build-and-run-solution-two-projects-library-and-tests-with-vscode). There is no such option "Blank solution":
+
+![01](https://cloud.githubusercontent.com/assets/1477672/13731824/49aef516-e930-11e5-81b2-4260b7337b84.png)
+![02](https://cloud.githubusercontent.com/assets/1477672/13731822/49ae8a68-e930-11e5-9b86-1db00cf8cf62.png)
+
+Compare above to Visual Studio:
+
+![03](https://cloud.githubusercontent.com/assets/1477672/13731826/49b1a5d6-e930-11e5-9847-f1a03b032850.png)
+
+You can create "Empty Project" or "Console Application". Let's create console application (it's selected "Empty Project" on screenshot above, don't be confused, we need option above):
+
+![04](https://cloud.githubusercontent.com/assets/1477672/13731821/49ac4686-e930-11e5-92b6-0c066d2ac888.png)
+
+Solution was created. And console application project is the part of this solution. Compare to Visual Studio:
+
+![05](https://cloud.githubusercontent.com/assets/1477672/13731823/49ae98a0-e930-11e5-860d-8c8a177a648c.png)
+
+Wait, let's see now what "Empty Project" means in Rider. In VS we can create "Blank Solution" and "Empty Project":
+
+![06](https://cloud.githubusercontent.com/assets/1477672/13731825/49b0b266-e930-11e5-8e57-64a27aebc60f.png)
+
+Let's create "Empty Project" in Rider. I'm trying to create and... look at this:
+
+![07](https://cloud.githubusercontent.com/assets/1477672/13731827/49c01968-e930-11e5-8be5-7842d9a439e7.png)
+
+Path was not saved. It means every time I have to type it manually. VS saves relative path. `C:\Projects\` is the only path for my projects. Minor Rider issue.
+
+![08](https://cloud.githubusercontent.com/assets/1477672/13731828/49c1ce70-e930-11e5-96f1-0224ebeea267.png)
+
+Yes, "Empty Projects" means "Solution with empty project". Unfortunately there's no way to create just blank solution. So you have to delete existing one from Rider UI. For some reason after deletion it's still on the disk:
+
+![09](https://cloud.githubusercontent.com/assets/1477672/13731829/49c44fce-e930-11e5-8bf8-dc47666c55d8.png)
+
+And you need to delete it manually. There is any references to `HelloRider2\HelloRider2.csproj`. It's just abandoned. And UI looks like this:
+
+![10](https://cloud.githubusercontent.com/assets/1477672/13731832/49c80eca-e930-11e5-9dd5-09320194a811.png)
+
+`Close Project` menu item is confusing, because it's closing solution, and not the project. Here is how it looks in Rider and Visual Studio:
+
+![11](https://cloud.githubusercontent.com/assets/1477672/13731831/49c670b0-e930-11e5-9c17-f75772efc180.png)
+![12](https://cloud.githubusercontent.com/assets/1477672/13731830/49c5ad56-e930-11e5-8945-b33cadfdc44a.png)
+
+Let's try to write and run the easiest ever program. When I type `Console.` for the second time, I expect to have `WriteLine` highlighted by default, because it was used last time. But Rider highlights very first item. It's sad:
+
+![13](https://cloud.githubusercontent.com/assets/1477672/13731834/49d3f2da-e930-11e5-829d-35098f16a1ea.png)
+
+It really affects productivity. But yes, it builds:
+
+![14](https://cloud.githubusercontent.com/assets/1477672/13731833/49d3b19e-e930-11e5-9e0c-89af50aa4c31.png)
+
+I can't say I don't like it. I really want to pay JetBrains for the product that can work on Mac OSX. But even on Windows it is not something I'd like to use now. I understand it's beta, but it's confusing, very fresh, and you have to be very enthusiastic and pain resistant if you want to use it. Let's wait for the final version and see if these problems have been fixed.
+
+I also want to be able to create Test Project. Hopefully I will be able to do that, because I can't imagine how can I work without that. But yes, now it's beta. And release is on the way. And I will keep on trying to run things on Mac. But now it seems to me that C# for Mac is something very extreme now. Frameworks are RC, IDEs are not ready. I have a feeling that I won't be able to use it in the next year. And I wanna be wrong.
