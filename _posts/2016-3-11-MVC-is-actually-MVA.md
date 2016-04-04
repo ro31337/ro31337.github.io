@@ -31,4 +31,31 @@ But controllers still control us. It's confusing if you're not familiar with thi
 
 Controller is taking to much. Don't be confused by that. You can do validation with validation decorators, let's say. And if you want to control how users access your website, do it in controller! Right? Not at all. When we have such a universal name it's very easy to put everything in there and create a mess. To control how users access your website, just add `FilteredActions`. It sounds much better than `FilteredController`, right?
 
+And this is my favorite:
+
+```
+class UsersActions < Rest
+end
+```
+
+vs
+
+```
+class UsersController < ApplicationController
+end
+```
+
+What you can say about 1st example? It's clear. How many restful actions we may have for resources? Golden seven. Not more than that. And what about second example? It says "controller", allows you to have as many actions as you want, and encourages you to follow god-object anti-pattern.
+
+Looking at the first line of first example we can say "users actions are rest actions, and there can't be more than 7 of them". Looking at the first line of second example we can say nothing, except "it's controller and it controls users somehow".
+
+If we want to add more functionality to our `/users` url, we can do it this way:
+
+```
+class UsersActions < Rpc
+end
+```
+
+What's the difference between `Rest` and `Rpc` base classes you say instead of just having two files? One of the benefits - we can set up our static analyzer to accept only predefined public methods for `UsersActions` inherited form `Rest`.
+
 `-er` is confusing. I want to thank Trygve for not naming MVC with something like "DataSaver-Presenter-Controller". It would be awful name. Let's make it clear now and join the movement! You're not controller anymore, and you don't control anything. I am developer, and I'm the controller here, so I gonna control how will I name you now: Actions.
