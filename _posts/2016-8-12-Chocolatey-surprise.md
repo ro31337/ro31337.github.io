@@ -21,6 +21,8 @@ Hint #3. Look at `https://chocolatey.org/install.ps1` and try to download latest
 
 ![image](https://cloud.githubusercontent.com/assets/1477672/17631792/62db3326-607a-11e6-82fe-7725d78ccfcc.png)
 
+Type the link above to your browser and...
+
 ![image](https://cloud.githubusercontent.com/assets/1477672/17631849/9497c384-607a-11e6-8c7f-cad5092a471e.png)
 
 Wow, there is automatic download of unreleased version on the Internet! But it's not that bad. The bad thing is new version has breaking changes. And this is how it breaks:
