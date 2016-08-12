@@ -31,7 +31,9 @@ Wow, there is automatic download of unreleased version on the Internet! But it's
 
 Just like that - "Empty checksums are no longer allowed by default for non-secure sources.". You have to use `--allowEmptyChecksums` now.
 
-Well, it's definitely good idea, but the thing is that I _never_ seen deprecation warnings! This is a rule number one in this world today - before you break something, make sure you scream about it! You cannot just break it like this with no heads up!
+The funny part is that you can see how `--allow-empty-checksums` is misspelled. There is `--allowEmptyChecksums` and `--allow-empty-checksums` on screenshot. The last one doesn't work!
+
+Well, it's definitely good idea to improve security, but the thing is that I _never_ seen deprecation warnings! This is a rule number one in this world today - before you break something, make sure you scream about it! You cannot just break it like this with no heads up!
 
 The fix could be just to use `--allowEmptyChecksums` every time or just specify chocolatey version during installation. Unfortunately on Chocolatey website they don't encourage users to specify version. And seems like there is no any way to specify mask. In Ruby, Node and all other languages/frameworks we could use the mask `0.9.x`, but seems like there is no such mechanism in Chocolatey. So to fix it... just always specify the exact latest version:
 
