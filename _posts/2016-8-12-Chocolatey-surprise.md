@@ -13,7 +13,7 @@ Hint #1. Look at commit history:
 
 ![image](https://cloud.githubusercontent.com/assets/1477672/17631654/cea09a2a-6079-11e6-918a-087c37b63c94.png)
 
-Hint #2. Look at release history:
+Hint #2. Look at release history (today is August 12, no any releases in last ~two months):
 
 ![image](https://cloud.githubusercontent.com/assets/1477672/17631701/00ee6fa2-607a-11e6-8da4-328cb7100700.png)
 
