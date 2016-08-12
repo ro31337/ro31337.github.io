@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Chocolatey surprise or how to brake Internet
+title: Chocolatey surprise or how to break Internet
 ---
 
 Chocolatey is famous package manager for Windows. Folks also name it "homebrew for Windows". Today, right before my vacation leave, I got Chocolatey surprise. Can you spot surprise in this code?
